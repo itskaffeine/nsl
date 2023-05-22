@@ -1,0 +1,199 @@
+﻿body {
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-family: 'Rajdhani', Calibri;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0a0b10;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #12131c;
+    border-radius: 3px;
+}
+
+.registrationButton {
+    background-color: #fcb53f;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.registrationButtonText {
+    color: white;
+    font-family: 'Rajdhani', Calibri;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(3.5rem - 3px);
+    background-color: #0a0b10;
+    border-bottom: solid;
+    border-color: #12131c;
+    border-width: 3px;
+}
+
+.navContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.navLogo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 13vw;
+}
+
+.menuImage {
+    object-fit: scale-down;
+    height: 100%;
+    width: auto;
+}
+
+.menuButton {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    height: 100%;
+    cursor: pointer;
+    transition: 500ms ease;
+}
+
+.menuText {
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.dropper {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 22px;
+    letter-spacing: 3px;
+    transition: 500ms ease;
+}
+
+.menuButton:hover .dropper {
+    color: #ff6bdf;
+    transform: rotate(-45deg);
+    transition: 500ms ease;
+}
+
+.navContent:has(:hover) .menuButton:not(:hover) {
+    opacity: 0.2;
+    transition: 500ms ease;
+}
+
+.loginButton {
+    display: flex;
+    height: 100%;
+}
+
+.loginWrap {
+    position: relative;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+}
+
+.loginContent {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*
+.loginLogo
+{
+    display: block;
+    object-fit: scale-down;
+    height: 2em;
+    width: 2em;
+}*/
+
+.historyWrapper {
+    background-color: #0a0b10;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.generalTitle {
+    margin-bottom: 0px;
+}
+
+.generalSubTitle {
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+.generalText {
+    color: white;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #12131c;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.textInfo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 20px;
+}
+
+.contentInfo {
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.nslLogo {
+    width: 200px;
+    object-fit: scale-down;
+    
+}

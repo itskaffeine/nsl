@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nsl", "nsl", "{A32C4F21-09BA-4A1D-B7A3-B635297A8F6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{32B8E733-F2CA-4229-9891-2AEBADFE645C}"
+	ProjectSection(SolutionItems) = preProject
+		homepage.html = homepage.html
+		script.js = script.js
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "faq", "faq", "{51650CFC-9561-47BD-B087-4FA8CFEF87B9}"
+	ProjectSection(SolutionItems) = preProject
+		faq.html = faq.html
+		faqStyle.css = faqStyle.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "venue", "venue", "{1F32363B-8DC5-4338-8218-87D0F5CC4DF0}"
+	ProjectSection(SolutionItems) = preProject
+		venue.html = venue.html
+		venueScript.js = venueScript.js
+		venueStyle.css = venueStyle.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "travel", "travel", "{8C097AEB-FED1-46D7-83CC-A358E2FC3030}"
+	ProjectSection(SolutionItems) = preProject
+		travel.html = travel.html
+		travelStyle.css = travelStyle.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "event", "event", "{F8FBA724-1CC6-4BE8-8D26-3E7490A0DB44}"
+	ProjectSection(SolutionItems) = preProject
+		event.html = event.html
+		eventStyle.css = eventStyle.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "format", "format", "{7ED461B2-181B-41DF-9B8C-FE62E0FB450D}"
+	ProjectSection(SolutionItems) = preProject
+		format.html = format.html
+		formatStyle.css = formatStyle.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "team", "team", "{D2701DB6-2383-48C8-8036-240F67E6243D}"
+	ProjectSection(SolutionItems) = preProject
+		team.html = team.html
+		teamStyle.css = teamStyle.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "history", "history", "{41646EB9-C238-4968-8305-6BA8C3E53CF3}"
+	ProjectSection(SolutionItems) = preProject
+		history.html = history.html
+		historyStyle.css = historyStyle.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32B8E733-F2CA-4229-9891-2AEBADFE645C} = {A32C4F21-09BA-4A1D-B7A3-B635297A8F6C}
+		{51650CFC-9561-47BD-B087-4FA8CFEF87B9} = {A32C4F21-09BA-4A1D-B7A3-B635297A8F6C}
+		{1F32363B-8DC5-4338-8218-87D0F5CC4DF0} = {A32C4F21-09BA-4A1D-B7A3-B635297A8F6C}
+		{8C097AEB-FED1-46D7-83CC-A358E2FC3030} = {A32C4F21-09BA-4A1D-B7A3-B635297A8F6C}
+		{F8FBA724-1CC6-4BE8-8D26-3E7490A0DB44} = {A32C4F21-09BA-4A1D-B7A3-B635297A8F6C}
+		{7ED461B2-181B-41DF-9B8C-FE62E0FB450D} = {A32C4F21-09BA-4A1D-B7A3-B635297A8F6C}
+		{D2701DB6-2383-48C8-8036-240F67E6243D} = {A32C4F21-09BA-4A1D-B7A3-B635297A8F6C}
+		{41646EB9-C238-4968-8305-6BA8C3E53CF3} = {A32C4F21-09BA-4A1D-B7A3-B635297A8F6C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CFF0D82-EA80-4889-9074-5DCF42D50F2B}
+	EndGlobalSection
+EndGlobal

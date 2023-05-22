@@ -1,0 +1,348 @@
+﻿body {
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-family: 'Rajdhani', Calibri;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0a0b10;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #12131c;
+    border-radius: 3px;
+}
+
+.registrationButton {
+    background-color: #fcb53f;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.registrationButtonText {
+    color: white;
+    font-family: 'Rajdhani', Calibri;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(3.5rem - 3px);
+    background-color: #0a0b10;
+    border-bottom: solid;
+    border-color: #12131c;
+    border-width: 3px;
+}
+
+.navContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.navLogo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 13vw;
+}
+
+.menuImage {
+    object-fit: scale-down;
+    height: 100%;
+    width: auto;
+}
+
+.menuButton {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    height: 100%;
+    cursor: pointer;
+    transition: 500ms ease;
+}
+
+.menuText {
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.dropper {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 22px;
+    letter-spacing: 3px;
+    transition: 500ms ease;
+}
+
+.menuButton:hover .dropper {
+    color: #ff6bdf;
+    transform: rotate(-45deg);
+    transition: 500ms ease;
+}
+
+.navContent:has(:hover) .menuButton:not(:hover) {
+    opacity: 0.2;
+    transition: 500ms ease;
+}
+
+.loginButton {
+    display: flex;
+    height: 100%;
+}
+
+.loginWrap {
+    position: relative;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+}
+
+.loginContent {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*
+.loginLogo
+{
+    display: block;
+    object-fit: scale-down;
+    height: 2em;
+    width: 2em;
+}*/
+
+.venueWrapper {
+    background-color: #0a0b10;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.generalTitle {
+    margin-bottom: 0px;
+}
+
+.generalSubTitle {
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+.generalText {
+    color: white;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #12131c;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.textInfo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 20px;
+}
+
+.contentInfo {
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.slideshowWrapper {
+    position: relative;
+}
+
+.slide {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.slideNum {
+    color: #f2f2f2;
+    font-size: 12px;
+    font-family: Calibri;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.slideImage {
+    width: 500px;
+    height: auto;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dotWrapper {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    margin-bottom: 16px;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.mediaWrapper {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.standardButton {
+    background-color: transparent;
+    cursor: pointer;
+    border: double;
+    border-radius: 10px;
+    border-color: white;
+    width: 200px;
+    height: 50px;
+    opacity: 1;
+    transition: 500ms ease;
+}
+
+.buttonWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonText {
+    font-family: 'Rajdhani', Calibri;
+    color: white;
+    margin: 0px;
+}
+
+.standardButton:hover {
+    opacity: 0.5;
+    transition: 500ms ease;
+}
+
+.mediaButton {
+    background-color: transparent;
+    cursor: pointer;
+    border: double;
+    border-radius: 25px;
+    border-color: white;
+    width: 50px;
+    height: 50px;
+    margin-left: 1em;
+    opacity: 1;
+    transition: 500ms ease;
+}
+
+.mediaButton:hover {
+    opacity: 0.5;
+    transition: 500ms ease;
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.mediaImage {
+    width: 26px;
+    object-fit: scale-down;
+}
+
+.list {
+    font-family: Calibri;
+    color: white;
+    margin: 0px;
+}
